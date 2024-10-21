@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "nttcw-poc-semantic-chunk"
+version = "0.1.0"
+description = ""
+authors = ["Masaya Sonobe <masayasonobe@microsoft.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+azure-functions = "*"
+azure-ai-documentintelligence = "*"
+langchain = "==0.2.10"
+langchain-community = "==0.2.9"
+tiktoken = "==0.7.0"
+pypdf = "==4.3.1"
+langchain-text-splitters = "==0.2.2"
+unstructured = "*"
+python-docx = "*"
+markdown = "*"
+python-pptx = "*"
+networkx = "*"
+pandas = "*"
+openpyxl = "*"
+chainlit = "*"
+langchain_openai = "*"
+openai = "*"
+PyMuPDF = "*"
+pinecone-client = "*"
+langchain_pinecone = "*"
+azure-search-documents = "*"
+azure-ai-formrecognizer = "^3.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

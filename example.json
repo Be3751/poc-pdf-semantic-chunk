@@ -1,0 +1,11 @@
+{
+    "content": {
+        "$content-type": "application/pdf",
+        "$content":""
+    },
+    "fileName": "example.pdf",
+    "splittingStrategy": "RECURSIVE",
+    "secondarySplittingStrategy": "RECURSIVE",
+    "chunkSize": 512,
+    "chunkOverlap": 128
+}
