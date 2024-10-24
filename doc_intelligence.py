@@ -188,7 +188,8 @@ def update_figure_description(md_content, img_description, idx):
     """
 
     # The substring you're looking for
-    start_substring = f"![](figures/{idx})"
+    # start_substring = f"![](figures/{idx})"
+    start_substring = f"<figure>"
     end_substring = "</figure>"
     new_string = f"<!-- FigureContent=\"{img_description}\" -->"
     
@@ -280,7 +281,6 @@ def process_figure(input_file_path, figure, idx, md_content, output_folder):
             print(f"\tDescription of figure {idx}: {img_description}")
 
     return idx, img_description, image_url
-
 
 def include_figure_in_md(input_file_path, result, output_folder="/tmp"):
     md_content = result.content
